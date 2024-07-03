@@ -2,31 +2,6 @@
 
 This project predicts diamond prices using machine learning. The project is modular, with separate components for data ingestion, transformation, and model training, making it easy to understand and maintain.
 
-## Project Structure
-
-```plaintext
-├── artifacts/
-│   ├── preprocessor.pkl
-│   ├── train.csv
-│   ├── test.csv
-│   ├── model.pkl
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── model_training.ipynb
-├── src/
-│   ├── components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   ├── pipeline/
-│   │   ├── training_pipeline.py
-│   │   ├── prediction.py
-├── templates/
-├── application.py
-├── requirements.txt
-├── setup.py
-├── .gitignore
-
 ## Description
 
 This project aims to predict the price of diamonds using a machine learning model. The main functionalities include:
@@ -54,7 +29,7 @@ Web Application: A Flask web app for interacting with the model.
 ## Installation
 
 Clone the repository:
-git clone https://github.com/yourusername/diamond-price-prediction.git
+git clone https://github.com/Utkgitdev-07/diamond-price-prediction.git
 cd diamond-price-prediction
 
 Install the required packages:
@@ -76,45 +51,73 @@ The application will prompt for data input and display the predicted diamond pri
 
 ## Usage
 
-Exploratory Data Analysis (EDA)
+1) Exploratory Data Analysis (EDA)
 Explore the dataset using the EDA.ipynb notebook located in the notebooks/ directory.
 
-Model Training
+2) Model Training
 Train the model using the model_training.ipynb notebook located in the notebooks/ directory.
 
-Data Ingestion
+3) Data Ingestion
 Ingest data using the data_ingestion.py script located in the src/components/ directory.
 
-Data Transformation
+4) Data Transformation
 Transform data using the data_transformation.py script located in the src/components/ directory.
 
-Model Training
+5) Model Training
 Train the model using the model_trainer.py script located in the src/components/ directory.
 
-Training Pipeline
+6) Training Pipeline
 Run the training pipeline using the training_pipeline.py script located in the src/pipeline/ directory.
 
-Prediction
+7) Prediction
 Make predictions using the prediction.py script located in the src/pipeline/ directory.
 
 ## Project Structure Overview
 
-Notebooks
+1) Notebooks
 EDA.ipynb: Exploratory Data Analysis.
 model_training.ipynb: Model training notebook.
 
-Components
+2) Components
 data_ingestion.py: Handles data ingestion processes.
 data_transformation.py: Handles data transformation processes.
 model_trainer.py: Handles model training processes.
 
-Pipeline
+3) Pipeline
 training_pipeline.py: Orchestrates the training pipeline.
 prediction.py: Handles prediction logic.
 
-Web Application
+4) Web Application
 application.py: Flask web application for running predictions.
 templates/: HTML templates for the web interface.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## Project Structure
+
+
+```plaintext
+├── artifacts/
+│   ├── preprocessor.pkl
+│   ├── train.csv
+│   ├── test.csv
+│   ├── model.pkl
+├── notebooks/
+│   ├── EDA.ipynb
+│   ├── model_training.ipynb
+├── src/
+│   ├── components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   ├── model_trainer.py
+│   ├── pipeline/
+│   │   ├── training_pipeline.py
+│   │   ├── prediction.py
+├── templates/
+├── application.py
+├── requirements.txt
+├── setup.py
+├── .gitignore
+
