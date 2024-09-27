@@ -32,6 +32,9 @@ Clone the repository:
 git clone https://github.com/Utkgitdev-07/diamond-price-prediction.git
 cd diamond-price-prediction
 
+Install--setuptools
+pip install setuptools
+
 Install the required packages:
 pip install -r requirements.txt
 Set up the project:
